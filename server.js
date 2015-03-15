@@ -3,7 +3,7 @@ var app = express();
 var server = require('http').Server(app);
 var path = require('path');
 
-server.listen(8080);
+server.listen(process.env.PORT || 5000);
 
 app.use(express.static(__dirname + '/public'));
 
