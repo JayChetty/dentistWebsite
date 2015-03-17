@@ -26,5 +26,5 @@ app.get('/treatments', function (req, res) {
 
 
 setInterval(function() {
-    http.get("http://floating-harbour-9787.herokuapp.com");
+    http.get("http://floating-harbor-9787.herokuapp.com");
 }, 1800000); // every 30 minutes (60 * 1000 * 30)
