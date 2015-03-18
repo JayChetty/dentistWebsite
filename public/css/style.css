@@ -16,6 +16,10 @@
   text-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 
+.nav{
+  margin-top:10px;
+}
+
 .header{
   margin-bottom: 0px;
   margin-top: 10px;
