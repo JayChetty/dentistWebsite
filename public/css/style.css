@@ -14,6 +14,12 @@
 .jumbotron h3{
   color: #fff;
   text-shadow: 0 0 10px rgba(0,0,0,.5);
+  position:relative;
+  margin-top:30px;
+}
+
+.icon{
+  border-radius: 6px;
 }
 
 .nav{
