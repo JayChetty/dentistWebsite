@@ -11,7 +11,7 @@
   background-color: #99BBCC;
   min-height: 200px;
 }
-.jumbotron h3{
+.jumbotron h2{
   color: #fff;
   text-shadow: 0 0 10px rgba(0,0,0,.5);
   position:relative;
