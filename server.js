@@ -24,6 +24,15 @@ app.get('/treatments', function (req, res) {
   res.sendFile(__dirname + '/treatments.html');
 });
 
+app.get('/cost', function (req, res) {
+  res.sendFile(__dirname + '/cost.html');
+});
+
+app.get('/accessibility', function (req, res) {
+  res.sendFile(__dirname + '/accessibility.html');
+});
+
+
 
 setInterval(function() {
     http.get("http://floating-harbor-9787.herokuapp.com");
