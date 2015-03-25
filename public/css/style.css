@@ -8,6 +8,8 @@
   -o-background-size: cover;
   background-size: cover;
   min-height: 500px;*/
+  padding-top:20px;
+  padding-bottom:70px;
   background-color: #99BBCC;
   min-height: 200px;
 }
