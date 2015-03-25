@@ -9,7 +9,7 @@ server.listen(process.env.PORT || 5000);
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
-  res.sendFile(__dirname + '/construction.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 app.get('/index', function (req, res) {
