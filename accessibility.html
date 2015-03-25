@@ -13,11 +13,23 @@
       <nav>
         <img src="images/nhssmall.png" alt="NHS Logo" />
         <ul class="nav nav-pills pull-right">
-          <li role="presentation" ><a href="/index">Home</a></li>
-          <li role="presentation"><a href="/treatments">Treatments</a></li>
-          <li role="presentation"><a href="/team">Team</a></li>
-          <li role="presentation"><a href="/cost">Cost Of Treatment</a></li>
-          <li role="presentation class="active""><a href="/accessibility">Accessibility</a></li>
+          <li role="presentation" class="hidden-xs hidden-sm"><a href="/index">Home</a></li>
+          <li role="presentation" class="hidden-xs hidden-sm"><a href="/treatments">Treatments</a></li>
+          <li role="presentation" class="hidden-xs hidden-sm"><a href="/team">Team</a></li>
+          <li role="presentation" class="hidden-xs hidden-sm"><a href="/cost">Cost Of Treatment</a></li>
+          <li role="presentation" class="active hidden-xs hidden-sm"><a href="/accessibility">Accessibility</a></li>
+          <li role="presentation" class="hidden-lg hidden-md active">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+              Accessibility <span class="caret"></span>
+            </a>
+              <ul class="dropdown-menu" role="menu">
+                  <li role="presentation"><a href="/index">Home</a></li>
+                  <li role="presentation"><a href="/treatments">Treatments</a></li>
+                  <li role="presentation"><a href="/team">Team</a></li>
+                  <li role="presentation"><a href="/cost">Cost Of Treatment</a></li>
+                  <li role="presentation" class="active"><a href="/accessibility">Accessibility</a></li>
+              </ul>
+          </li>
         </ul>        
       </nav>
     </div> 
